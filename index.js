@@ -38,8 +38,6 @@ class Wyze {
    * set tokens
    */
   async setTokens(accessToken, refreshToken) {
-    localStorage.setItem('access_token', accessToken);
-    localStorage.setItem('refresh_token', refreshToken);
     this.accessToken = accessToken;
     this.refreshToken = refreshToken;
   }
